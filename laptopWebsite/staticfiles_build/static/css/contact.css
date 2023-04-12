@@ -1,0 +1,28 @@
+/* map css start */
+.google-map{
+    margin: 5vh 2vw;
+}
+/* map css end */
+
+.heading{
+    margin-left: 2vw;
+}
+/* form css start */
+.form{
+    margin: 5vh 2vw;
+}
+.btn-style{
+    margin: 2vh;
+}
+/* form css end  */
+
+/* contanct details css start  */
+.contacts{
+    margin: 5vh 0vw;
+}
+.content{
+    display: flex;
+    gap: 1vw;
+}
+
+/* contact details css end  */
