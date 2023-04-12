@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<link type="text/css" rel="stylesheet" href="/static/css/contact.css">
+
+<div class="product-big-title-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-bit-title text-center">
+                    <h2>Contact-Us</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="google-map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.8120129560107!2d77.03677551440208!3d28.424928700198862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1875d7aa50e5%3A0x7e6930bbea28775f!2sILD%20Trade%20Centre!5e0!3m2!1sen!2sin!4v1680862818256!5m2!1sen!2sin"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+<div class="container">
+    <h4 class="heading">If you have any query you can comment us, By filling the form. Kindly find below the details through which you
+        will be getting solution in 48hrs. You can also contact us at +91-9599-207-207 availability. TIME: 10am to 7pm
+        IST</h4>
+    <form class="col-md-7 form">
+        <div class="row">
+            <div class="col-md-6">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstName">
+            </div>
+            <div class="col-md-6">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastName">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="email" class="form-label">Email Id</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="col-md-6">
+                <label for="mobile" class="form-label">Mobile No.</label>
+                <input type="number" class="form-control" id="mobile">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label for="textarea" class="form-label">Your Message</label>
+                <textarea class="form-control" id="textarea" rows="3"></textarea>
+            </div>
+        </div>
+        <button class="btn-style" type="submit"> Submit</button>
+    </form>
+
+    <div class="contacts col-md-4">
+        
+        <div class="content">
+            <a href="#"><i class="fa fa-map-marker"></i></a>
+            <div class="content-add">
+                <h5> <strong> Service Center Address: </strong></h5>
+                <h5>ILD Trade Centre, Badshahpur Sohna Rd Hwy, D1 Block, Malibu Town, Sector 47, Gurugram, Haryana 122018</h5>
+            </div>
+        </div>
+        <div class="content">
+            <a href="#"><i class="fa fa-phone"></i></a>
+            <div class="content-add">
+                <h5><strong>Phone:</strong></h5>
+                <h5>+91 9883478234, +91 8867434523</h5>
+            </div>
+        </div>
+        <div class="content">
+            <a href="#"><i class="fa fa-envelope"></i></a>
+            <div class="content-add">
+                <h5> <strong> Email:</strong></h5>
+                <h5>faisal.balkhi@adssquad.in</h5>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+{% include "footer.html" %}
+{% endblock %}
